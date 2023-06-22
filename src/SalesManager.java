@@ -25,4 +25,15 @@ public class SalesManager {
         return min;
     }
 
+    public int stat() {
+        int sum = 0;
+        int srd = 0;
+        int sum2 = 0;
+        for (int i = 0; i < sales.length; i++) {
+            sum = sum + sales[i];
+            sum2 = sum - min() - max();
+            srd = (sum2 / sales.length) ;
+        }
+        return srd;
+    }
 }
