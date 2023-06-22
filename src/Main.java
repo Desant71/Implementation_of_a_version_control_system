@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] price = {100,325,326,68769};
+        long[] price = {100,325,326,68769};
 
         SalesManager salesManager = new SalesManager(price);
 
